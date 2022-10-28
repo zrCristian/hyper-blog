@@ -21,3 +21,13 @@ h1 {
 p {
     font-size: 1.5em;
 }
+
+p:last-child  {
+    color: #ecc;
+
+}
+
+p:last-child span {
+    color: #c00;
+    text-transform: uppercase;
+}
