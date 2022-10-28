@@ -10,8 +10,24 @@ body {
     width: 70%;
     padding: 1em;
     text-align: left;
-    border: solid 2px #9a9a9a;
-    margin: 0 auto;
+    border: solid 2px #554455;
+    margin: 30px auto;
+    background: #0d0d0d;
+    border-radius: 3px;
+}
+
+.cabecera {
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 0 20px;
+    background: #090909;
+    font-size: 3em;
+    box-shadow: 1px 4px 12px 10px rgba(0 0 0 / 1);
+}
+
+.tagline {
+    padding: 0 0 0 1em;
+    font-size: .6em;
 }
 
 h1 {
