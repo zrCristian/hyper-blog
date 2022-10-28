@@ -2,6 +2,16 @@ body {
     text-align: center;
     background: #010101;
     color: #aaa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: solid 2px #9a9a9a;
+    margin: 0 auto;
 }
 
 h1 {
