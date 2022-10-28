@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 60%;
     padding: 1em;
     text-align: left;
     border: solid 2px #554455;
@@ -19,10 +19,11 @@ body {
 .cabecera {
     border-radius: 3px;
     font-weight: bold;
-    padding: 0 20px;
+    padding: 12px 20px;
     background: #090909;
     font-size: 3em;
     box-shadow: 1px 4px 12px 10px rgba(0 0 0 / 1);
+    border: solid 1px #5544559a;
 }
 
 .tagline {
@@ -46,4 +47,14 @@ p:last-child  {
 p:last-child span {
     color: #c00;
     text-transform: uppercase;
+}
+
+.img {
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
 }
