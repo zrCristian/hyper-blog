@@ -6,6 +6,10 @@ body {
     padding: 0;
 }
 
+.cabecera {
+    font-size: 3em;
+}
+
 .container {
     width: 70%;
     padding: 1em;
