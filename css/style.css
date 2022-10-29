@@ -58,3 +58,16 @@ img {
     width: 400px;
     object-fit: cover;
 }
+
+
+.caja {
+    text-align: center;
+}
+.caja h2 {
+    font-size: 2.7em;
+    margin: 10px;
+}
+
+.caja img:nth-child(2) {
+    margin-right: 10px;
+}
