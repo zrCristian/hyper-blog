@@ -71,3 +71,16 @@ img {
 .caja img:nth-child(2) {
     margin-right: 10px;
 }
+
+footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #191919;
+    padding: 0 100px;
+}
+
+.redes {
+    font-size: 1.35em;
+}
