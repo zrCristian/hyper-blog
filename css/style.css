@@ -21,14 +21,29 @@ body {
     font-weight: bold;
     padding: 12px 20px;
     background: #090909;
-    font-size: 3em;
+    font-size: 2.5em;
     box-shadow: 1px 4px 12px 10px rgba(0 0 0 / 1);
     border: solid 1px #5544559a;
+    vertical-align: middle;
+}
+
+.cabecera img {
+    height: 43px;
+    width: 43px;
+    border-radius: 20px;
+    object-position: 50% 3px;
+    border: solid 1px #554455;
+}
+
+.cabecera p {
+    display: inline-block;
+    margin: 0;
 }
 
 .tagline {
-    padding: 0 0 0 1em;
-    font-size: .6em;
+    display: inline-block;
+    padding-left: 1em;
+    font-size: .7em;
 }
 
 h1 {
@@ -61,11 +76,13 @@ img {
 
 
 .caja {
+    margin-top: 45px;
+    border-top: solid 1px #554455;
     text-align: center;
 }
 .caja h2 {
     font-size: 2.7em;
-    margin: 10px;
+    margin: 15px;
 }
 
 .caja img:nth-child(2) {
